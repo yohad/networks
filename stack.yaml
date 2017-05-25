@@ -1,0 +1,12 @@
+resolver: lts-8.5
+packages:
+- '.'
+extra-deps:
+- hmatrix-0.18.0.0
+flags:
+  hmatrix:
+    openblas: true
+extra-include-dirs:
+- D:\OpenBLAS-v0.2.19-Win64-int32\include
+extra-lib-dirs:
+- D:\OpenBLAS-v0.2.19-Win64-int32\bin
