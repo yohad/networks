@@ -1,12 +1,20 @@
 resolver: lts-8.5
+
 packages:
 - '.'
+
 extra-deps:
 - hmatrix-0.18.0.0
+- hnn-0.3
+
 flags:
   hmatrix:
     openblas: true
+
 extra-include-dirs:
 - D:\OpenBLAS-v0.2.19-Win64-int32\include
+
 extra-lib-dirs:
 - D:\OpenBLAS-v0.2.19-Win64-int32\bin
+- C:\Users\Yotam\AppData\Local\Programs\stack\x86_64-windows\msys2-20150512\usr\lib\gcc\x86_64-pc-msys\6.3.0
+- C:\Users\Yotam\AppData\Local\Programs\stack\x86_64-windows\msys2-20150512\mingw64\bin

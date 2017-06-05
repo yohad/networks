@@ -1,0 +1,812 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-05 10:34:45.6330327 UTC
+
+interface networks-0.1.0.0-8MvwABPgKe0DIamyIk8TMx:AND 8002
+  interface hash: 9d1ac013936f1ec20a4ee6770325dd20
+  ABI hash: 1d28477cfeabbc125b145a380936b908
+  export-list hash: b61daf968e99bc99aaa91a5afc23096b
+  orphan hash: 8b292b503efd347e96708ff948537da5
+  flag hash: d590113cb46857ee357450a9006ba5f1
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  AND.run
+  AND.samples
+module dependencies:
+package dependencies: Win32-2.3.1.1@Win32-2.3.1.1
+                      array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt
+                      hnn-0.3@hnn-0.3-BKD6Q1V1t9O678kyRvzCXE integer-gmp-1.0.0.1
+                      mwc-random-0.13.5.0@mwc-random-0.13.5.0-ELHSKL9e3jrGkA1HowgdUj
+                      primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      split-0.2.3.1@split-0.2.3.1-FWyXC6nhV0H3AfM8IzrEFk
+                      time-1.6.0.1@time-1.6.0.1 transformers-0.5.2.0@transformers-0.5.2.0
+                      vector-0.11.0.0@vector-0.11.0.0-HhutbadagxHIONIkSRJEug
+                      zlib-0.6.1.2@zlib-0.6.1.2-BfeUVhBVvrx1Nvtzv6OD9c
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Internal.CG
+         hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Internal.Element
+         hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Internal.Util
+         hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Internal.Vector
+         hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Numeric.Matrix
+         hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Numeric.Vector
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-HhutbadagxHIONIkSRJEug:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-HhutbadagxHIONIkSRJEug:Data.Vector.Unboxed
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Internal.Devel
+                         hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Internal.Matrix
+                         hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Internal.Modular
+                         hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Internal.Numeric
+                         mwc-random-0.13.5.0@mwc-random-0.13.5.0-ELHSKL9e3jrGkA1HowgdUj:System.Random.MWC
+                         primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH:Control.Monad.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-HhutbadagxHIONIkSRJEug:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-HhutbadagxHIONIkSRJEug:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-HhutbadagxHIONIkSRJEug:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-HhutbadagxHIONIkSRJEug:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-HhutbadagxHIONIkSRJEug:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.2@zlib-0.6.1.2-BfeUVhBVvrx1Nvtzv6OD9c:Codec.Compression.Zlib.Stream
+import  -/  base-4.9.1.0:Data.Foldable 254e836c2d813d34e47feb29bb8d40ed
+import  -/  base-4.9.1.0:Data.Tuple b07f695e7ce8fe20cc8a32abf62f60ec
+import  -/  base-4.9.1.0:GHC.Base 4caea1123ecf4b46e27cbccd6d279377
+import  -/  base-4.9.1.0:GHC.Float b620368aab866c2bb9d3a0a459566b84
+import  -/  base-4.9.1.0:Prelude 74b3e204395920329f6de9d97206abe9
+import  -/  base-4.9.1.0:System.IO 5daf3f384209c11d9566e3409af8ec5d
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  hmatrix-0.18.0.0@hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt:Numeric.LinearAlgebra e61206b2609c00e79a30b39e1ea50a44
+import  -/  hnn-0.3@hnn-0.3-BKD6Q1V1t9O678kyRvzCXE:AI.HNN.FF.Network e26ed52c969e3536cb3cc43becf32105
+import  -/  vector-0.11.0.0@vector-0.11.0.0-HhutbadagxHIONIkSRJEug:Data.Vector.Storable dbc9df0e4d7556209f90570da1f8492b
+7103e886d138140068fdfd29eaf5bd82
+  $sinit_$slength ::
+    Data.Vector.Vector (Data.Vector.Storable.Vector GHC.Types.Double)
+    -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,U,A)>m,
+     Inline: [NEVER] -}
+34a50c40718c31fbb55d04db37571458
+  $slength1 ::
+    Data.Vector.Vector
+      (Data.Vector.Storable.Vector GHC.Types.Double,
+       Internal.Matrix.Matrix GHC.Types.Double)
+    -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,U,A)>m,
+     Inline: [NEVER] -}
+4b5ee322c79607524b8a6649d98f9159
+  $stanh' :: GHC.Types.Double -> GHC.Types.Double
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(U)>m,
+     Inline: INLINE (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ (eta :: GHC.Types.Double) ->
+                 case eta of x { GHC.Types.D# ipv ->
+                 GHC.Float.$fNumDouble_$c-
+                   (GHC.Types.D# 1.0##)
+                   (GHC.Float.$fFloatingDouble_$c**
+                      (GHC.Float.$fFloatingDouble_$ctanh x)
+                      (GHC.Types.D# 2.0##)) }) -}
+71d3389c852ed06a36d8919b47741980
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module AND.$trModule2 AND.$trModule1) -}
+bf727f018386dc001245a9b384f258e5
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "AND"#) -}
+cd49b4360fa95aeb29e03c02c7622ce3
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "networks-0.1.0.0-8MvwABPgKe0DIamyIk8TMx"#) -}
+238b99cbc2e7cb37be02292b05e27fac
+  run :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                AND.run1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+46208d47254ba4beaa2e9ab8d9650ea2
+  run1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U> -}
+e0478e0499cc1372d05db4cd37a93c5c
+  samples :: AI.HNN.FF.Network.Samples GHC.Types.Double
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (AI.HNN.FF.Network.Sample GHC.Types.Double)
+                   AND.samples33
+                   AND.samples1) -}
+0c97842604276299863832346a25d9b7
+  samples1 :: [AI.HNN.FF.Network.Sample GHC.Types.Double]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (AI.HNN.FF.Network.Sample GHC.Types.Double)
+                   AND.samples26
+                   AND.samples2) -}
+cfc3cfe92dfb1a413b68ed7e3ae151c3
+  samples10 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 0.0##) -}
+814c1ffc3616cec6accbbf59d3de45f6
+  samples11 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+7a364f7e42fe0e7f46b0d7dbde248eb9
+  samples12 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Storable.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          GHC.Types.Double,
+        GHC.Types.Int)
+    -> [GHC.Types.Double]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Storable.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             GHC.Types.Double,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+b0de8c2ecfc68481e0b7a8bd18672e6a
+  samples13 :: Data.Vector.Storable.Vector GHC.Types.Double
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ (Data.Vector.Storable.Vector GHC.Types.Double)
+                        AND.samples14 of ds1 { (#,#) ipv1 ipv2 ->
+                 ipv2 }) -}
+197cf2997635d16f0f21e3fd57b3621b
+  samples14 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Vector.Storable.Vector GHC.Types.Double #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newPinnedByteArray#
+                        @ GHC.Prim.RealWorld
+                        0#
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 case AND.samples16
+                        GHC.Types.SPEC
+                        ((Data.Vector.Storable.Mutable.MVector
+                            @ (Control.Monad.Primitive.PrimState
+                                 (GHC.ST.ST GHC.Prim.RealWorld))
+                            @ GHC.Types.Double
+                            0#
+                            (GHC.Prim.byteArrayContents#
+                               ipv1
+                                 `cast`
+                               (UnsafeCo representational (GHC.Prim.MutableByteArray#
+                                                             GHC.Prim.RealWorld) GHC.Prim.ByteArray#))
+                            (GHC.ForeignPtr.PlainPtr ipv1))
+                           `cast`
+                         (Sub (Sym (Data.Vector.Storable.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                   (GHC.ST.ST
+                                                                                      GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N),
+                         AND.samples11)
+                        AND.samples15
+                        ipv of ds2 { (#,#) ipv6 ipv7 ->
+                 case ipv7 of wild5 { (,) v' n ->
+                 case v'
+                        `cast`
+                      (Sub (Data.Vector.Storable.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                          (GHC.ST.ST
+                                                                             GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N) of wild { Data.Vector.Storable.Mutable.MVector dt dt1 dt2 ->
+                 case n of dt3 { GHC.Types.I# dt4 ->
+                 (# ipv6,
+                    Data.Vector.Storable.Vector
+                      @ GHC.Types.Double
+                      dt4
+                      dt1
+                      dt2 #) } } } } }) -}
+8c97e15ff7ea6ffcdaaf120566e24b33
+  samples15 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   AND.samples9
+                   AND.samples8) -}
+09962a5122b9fb1525a2b2a99bec216e
+  samples16 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Storable.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          GHC.Types.Double,
+        GHC.Types.Int)
+    -> [GHC.Types.Double]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Storable.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             GHC.Types.Double,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+d81f77d56de1665e61d29e6fc8c38c0f
+  samples17 ::
+    (Data.Vector.Storable.Vector GHC.Types.Double,
+     Data.Vector.Storable.Vector GHC.Types.Double)
+  {- Strictness: m, Unfolding: ((AND.samples23, AND.samples18)) -}
+44eb732de487c624fdcc39a93f627d8e
+  samples18 :: Data.Vector.Storable.Vector GHC.Types.Double
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ (Data.Vector.Storable.Vector GHC.Types.Double)
+                        AND.samples19 of ds1 { (#,#) ipv1 ipv2 ->
+                 ipv2 }) -}
+f9c05dbf0cdbcccd8042bc43974c9d63
+  samples19 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Vector.Storable.Vector GHC.Types.Double #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newPinnedByteArray#
+                        @ GHC.Prim.RealWorld
+                        0#
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 case AND.samples22
+                        GHC.Types.SPEC
+                        ((Data.Vector.Storable.Mutable.MVector
+                            @ (Control.Monad.Primitive.PrimState
+                                 (GHC.ST.ST GHC.Prim.RealWorld))
+                            @ GHC.Types.Double
+                            0#
+                            (GHC.Prim.byteArrayContents#
+                               ipv1
+                                 `cast`
+                               (UnsafeCo representational (GHC.Prim.MutableByteArray#
+                                                             GHC.Prim.RealWorld) GHC.Prim.ByteArray#))
+                            (GHC.ForeignPtr.PlainPtr ipv1))
+                           `cast`
+                         (Sub (Sym (Data.Vector.Storable.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                   (GHC.ST.ST
+                                                                                      GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N),
+                         AND.samples11)
+                        AND.samples20
+                        ipv of ds2 { (#,#) ipv6 ipv7 ->
+                 case ipv7 of wild5 { (,) v' n ->
+                 case v'
+                        `cast`
+                      (Sub (Data.Vector.Storable.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                          (GHC.ST.ST
+                                                                             GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N) of wild { Data.Vector.Storable.Mutable.MVector dt dt1 dt2 ->
+                 case n of dt3 { GHC.Types.I# dt4 ->
+                 (# ipv6,
+                    Data.Vector.Storable.Vector
+                      @ GHC.Types.Double
+                      dt4
+                      dt1
+                      dt2 #) } } } } }) -}
+8dc45a591f08e11553bc5f7397f10220
+  samples2 :: [AI.HNN.FF.Network.Sample GHC.Types.Double]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (AI.HNN.FF.Network.Sample GHC.Types.Double)
+                   AND.samples17
+                   AND.samples3) -}
+780af2c451c342c61bb42e0e22246a7d
+  samples20 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   AND.samples9
+                   AND.samples21) -}
+5b50ba3b4f19720cf59bba89c2322a82
+  samples21 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   AND.samples10
+                   (GHC.Types.[] @ GHC.Types.Double)) -}
+aec1aedd99f7f6098007e04b3318e3d0
+  samples22 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Storable.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          GHC.Types.Double,
+        GHC.Types.Int)
+    -> [GHC.Types.Double]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Storable.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             GHC.Types.Double,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+f7bc8bcbb2648be7bf5629e64b7e72c9
+  samples23 :: Data.Vector.Storable.Vector GHC.Types.Double
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ (Data.Vector.Storable.Vector GHC.Types.Double)
+                        AND.samples24 of ds1 { (#,#) ipv1 ipv2 ->
+                 ipv2 }) -}
+d05effb20b2ce3fd7a2ed82d28a585bf
+  samples24 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Vector.Storable.Vector GHC.Types.Double #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newPinnedByteArray#
+                        @ GHC.Prim.RealWorld
+                        0#
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 case AND.samples25
+                        GHC.Types.SPEC
+                        ((Data.Vector.Storable.Mutable.MVector
+                            @ (Control.Monad.Primitive.PrimState
+                                 (GHC.ST.ST GHC.Prim.RealWorld))
+                            @ GHC.Types.Double
+                            0#
+                            (GHC.Prim.byteArrayContents#
+                               ipv1
+                                 `cast`
+                               (UnsafeCo representational (GHC.Prim.MutableByteArray#
+                                                             GHC.Prim.RealWorld) GHC.Prim.ByteArray#))
+                            (GHC.ForeignPtr.PlainPtr ipv1))
+                           `cast`
+                         (Sub (Sym (Data.Vector.Storable.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                   (GHC.ST.ST
+                                                                                      GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N),
+                         AND.samples11)
+                        AND.samples20
+                        ipv of ds2 { (#,#) ipv6 ipv7 ->
+                 case ipv7 of wild5 { (,) v' n ->
+                 case v'
+                        `cast`
+                      (Sub (Data.Vector.Storable.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                          (GHC.ST.ST
+                                                                             GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N) of wild { Data.Vector.Storable.Mutable.MVector dt dt1 dt2 ->
+                 case n of dt3 { GHC.Types.I# dt4 ->
+                 (# ipv6,
+                    Data.Vector.Storable.Vector
+                      @ GHC.Types.Double
+                      dt4
+                      dt1
+                      dt2 #) } } } } }) -}
+d32d500c49b5184d978f65b071e13c2d
+  samples25 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Storable.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          GHC.Types.Double,
+        GHC.Types.Int)
+    -> [GHC.Types.Double]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Storable.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             GHC.Types.Double,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+45fd769d3ef12dc1891462fac7ae05e3
+  samples26 ::
+    (Data.Vector.Storable.Vector GHC.Types.Double,
+     Data.Vector.Storable.Vector GHC.Types.Double)
+  {- Strictness: m, Unfolding: ((AND.samples30, AND.samples27)) -}
+0c1a3e3abaee0e0a2132db4250ea24c1
+  samples27 :: Data.Vector.Storable.Vector GHC.Types.Double
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ (Data.Vector.Storable.Vector GHC.Types.Double)
+                        AND.samples28 of ds1 { (#,#) ipv1 ipv2 ->
+                 ipv2 }) -}
+90fee5ea18eeea52b671d96009fc9484
+  samples28 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Vector.Storable.Vector GHC.Types.Double #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newPinnedByteArray#
+                        @ GHC.Prim.RealWorld
+                        0#
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 case AND.samples29
+                        GHC.Types.SPEC
+                        ((Data.Vector.Storable.Mutable.MVector
+                            @ (Control.Monad.Primitive.PrimState
+                                 (GHC.ST.ST GHC.Prim.RealWorld))
+                            @ GHC.Types.Double
+                            0#
+                            (GHC.Prim.byteArrayContents#
+                               ipv1
+                                 `cast`
+                               (UnsafeCo representational (GHC.Prim.MutableByteArray#
+                                                             GHC.Prim.RealWorld) GHC.Prim.ByteArray#))
+                            (GHC.ForeignPtr.PlainPtr ipv1))
+                           `cast`
+                         (Sub (Sym (Data.Vector.Storable.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                   (GHC.ST.ST
+                                                                                      GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N),
+                         AND.samples11)
+                        AND.samples20
+                        ipv of ds2 { (#,#) ipv6 ipv7 ->
+                 case ipv7 of wild5 { (,) v' n ->
+                 case v'
+                        `cast`
+                      (Sub (Data.Vector.Storable.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                          (GHC.ST.ST
+                                                                             GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N) of wild { Data.Vector.Storable.Mutable.MVector dt dt1 dt2 ->
+                 case n of dt3 { GHC.Types.I# dt4 ->
+                 (# ipv6,
+                    Data.Vector.Storable.Vector
+                      @ GHC.Types.Double
+                      dt4
+                      dt1
+                      dt2 #) } } } } }) -}
+aab499d7e372934a15597e0da57b0709
+  samples29 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Storable.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          GHC.Types.Double,
+        GHC.Types.Int)
+    -> [GHC.Types.Double]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Storable.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             GHC.Types.Double,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+b6d0a62507d63af51f44070f74b63a1e
+  samples3 :: [AI.HNN.FF.Network.Sample GHC.Types.Double]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (AI.HNN.FF.Network.Sample GHC.Types.Double)
+                   AND.samples4
+                   (GHC.Types.[] @ (AI.HNN.FF.Network.Sample GHC.Types.Double))) -}
+5e1146fd81cdb1ec4615f2adcf6f7b4e
+  samples30 :: Data.Vector.Storable.Vector GHC.Types.Double
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ (Data.Vector.Storable.Vector GHC.Types.Double)
+                        AND.samples31 of ds1 { (#,#) ipv1 ipv2 ->
+                 ipv2 }) -}
+6d32868b605f5b493e327bb5e0ada511
+  samples31 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Vector.Storable.Vector GHC.Types.Double #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newPinnedByteArray#
+                        @ GHC.Prim.RealWorld
+                        0#
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 case AND.samples32
+                        GHC.Types.SPEC
+                        ((Data.Vector.Storable.Mutable.MVector
+                            @ (Control.Monad.Primitive.PrimState
+                                 (GHC.ST.ST GHC.Prim.RealWorld))
+                            @ GHC.Types.Double
+                            0#
+                            (GHC.Prim.byteArrayContents#
+                               ipv1
+                                 `cast`
+                               (UnsafeCo representational (GHC.Prim.MutableByteArray#
+                                                             GHC.Prim.RealWorld) GHC.Prim.ByteArray#))
+                            (GHC.ForeignPtr.PlainPtr ipv1))
+                           `cast`
+                         (Sub (Sym (Data.Vector.Storable.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                   (GHC.ST.ST
+                                                                                      GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N),
+                         AND.samples11)
+                        AND.samples7
+                        ipv of ds2 { (#,#) ipv6 ipv7 ->
+                 case ipv7 of wild5 { (,) v' n ->
+                 case v'
+                        `cast`
+                      (Sub (Data.Vector.Storable.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                          (GHC.ST.ST
+                                                                             GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N) of wild { Data.Vector.Storable.Mutable.MVector dt dt1 dt2 ->
+                 case n of dt3 { GHC.Types.I# dt4 ->
+                 (# ipv6,
+                    Data.Vector.Storable.Vector
+                      @ GHC.Types.Double
+                      dt4
+                      dt1
+                      dt2 #) } } } } }) -}
+6023cffecad1da96764a8df124ad6e4e
+  samples32 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Storable.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          GHC.Types.Double,
+        GHC.Types.Int)
+    -> [GHC.Types.Double]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Storable.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             GHC.Types.Double,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+394645cbaaca8a878590a120aaf1c6a6
+  samples33 ::
+    (Data.Vector.Storable.Vector GHC.Types.Double,
+     Data.Vector.Storable.Vector GHC.Types.Double)
+  {- Strictness: m, Unfolding: ((AND.samples37, AND.samples34)) -}
+d5e2f118f8fd8798325e781208842b26
+  samples34 :: Data.Vector.Storable.Vector GHC.Types.Double
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ (Data.Vector.Storable.Vector GHC.Types.Double)
+                        AND.samples35 of ds1 { (#,#) ipv1 ipv2 ->
+                 ipv2 }) -}
+4ef8f39de475b695d11b0a8dee0e3602
+  samples35 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Vector.Storable.Vector GHC.Types.Double #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newPinnedByteArray#
+                        @ GHC.Prim.RealWorld
+                        0#
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 case AND.samples36
+                        GHC.Types.SPEC
+                        ((Data.Vector.Storable.Mutable.MVector
+                            @ (Control.Monad.Primitive.PrimState
+                                 (GHC.ST.ST GHC.Prim.RealWorld))
+                            @ GHC.Types.Double
+                            0#
+                            (GHC.Prim.byteArrayContents#
+                               ipv1
+                                 `cast`
+                               (UnsafeCo representational (GHC.Prim.MutableByteArray#
+                                                             GHC.Prim.RealWorld) GHC.Prim.ByteArray#))
+                            (GHC.ForeignPtr.PlainPtr ipv1))
+                           `cast`
+                         (Sub (Sym (Data.Vector.Storable.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                   (GHC.ST.ST
+                                                                                      GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N),
+                         AND.samples11)
+                        AND.samples20
+                        ipv of ds2 { (#,#) ipv6 ipv7 ->
+                 case ipv7 of wild5 { (,) v' n ->
+                 case v'
+                        `cast`
+                      (Sub (Data.Vector.Storable.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                          (GHC.ST.ST
+                                                                             GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N) of wild { Data.Vector.Storable.Mutable.MVector dt dt1 dt2 ->
+                 case n of dt3 { GHC.Types.I# dt4 ->
+                 (# ipv6,
+                    Data.Vector.Storable.Vector
+                      @ GHC.Types.Double
+                      dt4
+                      dt1
+                      dt2 #) } } } } }) -}
+09734d9bda057ab43197022d9c11c08e
+  samples36 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Storable.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          GHC.Types.Double,
+        GHC.Types.Int)
+    -> [GHC.Types.Double]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Storable.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             GHC.Types.Double,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+794caeaa119471cf351300e19ab20191
+  samples37 :: Data.Vector.Storable.Vector GHC.Types.Double
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ (Data.Vector.Storable.Vector GHC.Types.Double)
+                        AND.samples38 of ds1 { (#,#) ipv1 ipv2 ->
+                 ipv2 }) -}
+d735759665ec22b6b5fc8855406e8335
+  samples38 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Vector.Storable.Vector GHC.Types.Double #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newPinnedByteArray#
+                        @ GHC.Prim.RealWorld
+                        0#
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 case AND.samples40
+                        GHC.Types.SPEC
+                        ((Data.Vector.Storable.Mutable.MVector
+                            @ (Control.Monad.Primitive.PrimState
+                                 (GHC.ST.ST GHC.Prim.RealWorld))
+                            @ GHC.Types.Double
+                            0#
+                            (GHC.Prim.byteArrayContents#
+                               ipv1
+                                 `cast`
+                               (UnsafeCo representational (GHC.Prim.MutableByteArray#
+                                                             GHC.Prim.RealWorld) GHC.Prim.ByteArray#))
+                            (GHC.ForeignPtr.PlainPtr ipv1))
+                           `cast`
+                         (Sub (Sym (Data.Vector.Storable.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                   (GHC.ST.ST
+                                                                                      GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N),
+                         AND.samples11)
+                        AND.samples39
+                        ipv of ds2 { (#,#) ipv6 ipv7 ->
+                 case ipv7 of wild5 { (,) v' n ->
+                 case v'
+                        `cast`
+                      (Sub (Data.Vector.Storable.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                          (GHC.ST.ST
+                                                                             GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N) of wild { Data.Vector.Storable.Mutable.MVector dt dt1 dt2 ->
+                 case n of dt3 { GHC.Types.I# dt4 ->
+                 (# ipv6,
+                    Data.Vector.Storable.Vector
+                      @ GHC.Types.Double
+                      dt4
+                      dt1
+                      dt2 #) } } } } }) -}
+fbc489d2dafefda9f278b64fcce00a55
+  samples39 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   AND.samples10
+                   AND.samples21) -}
+f4f396b136f827fbf66c319bc166ae34
+  samples4 ::
+    (Data.Vector.Storable.Vector GHC.Types.Double,
+     Data.Vector.Storable.Vector GHC.Types.Double)
+  {- Strictness: m, Unfolding: ((AND.samples13, AND.samples5)) -}
+e2c5f6f0dadd6b230ba8f1432829a510
+  samples40 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Storable.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          GHC.Types.Double,
+        GHC.Types.Int)
+    -> [GHC.Types.Double]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Storable.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             GHC.Types.Double,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+c97251704f50f0a0d66a5c2087560275
+  samples5 :: Data.Vector.Storable.Vector GHC.Types.Double
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ (Data.Vector.Storable.Vector GHC.Types.Double)
+                        AND.samples6 of ds1 { (#,#) ipv1 ipv2 ->
+                 ipv2 }) -}
+50294c64b25db1ad58ab51a18de28556
+  samples6 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Vector.Storable.Vector GHC.Types.Double #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newPinnedByteArray#
+                        @ GHC.Prim.RealWorld
+                        0#
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 case AND.samples12
+                        GHC.Types.SPEC
+                        ((Data.Vector.Storable.Mutable.MVector
+                            @ (Control.Monad.Primitive.PrimState
+                                 (GHC.ST.ST GHC.Prim.RealWorld))
+                            @ GHC.Types.Double
+                            0#
+                            (GHC.Prim.byteArrayContents#
+                               ipv1
+                                 `cast`
+                               (UnsafeCo representational (GHC.Prim.MutableByteArray#
+                                                             GHC.Prim.RealWorld) GHC.Prim.ByteArray#))
+                            (GHC.ForeignPtr.PlainPtr ipv1))
+                           `cast`
+                         (Sub (Sym (Data.Vector.Storable.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                   (GHC.ST.ST
+                                                                                      GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N),
+                         AND.samples11)
+                        AND.samples7
+                        ipv of ds2 { (#,#) ipv6 ipv7 ->
+                 case ipv7 of wild5 { (,) v' n ->
+                 case v'
+                        `cast`
+                      (Sub (Data.Vector.Storable.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                          (GHC.ST.ST
+                                                                             GHC.Prim.RealWorld)>_N <GHC.Types.Double>_N) of wild { Data.Vector.Storable.Mutable.MVector dt dt1 dt2 ->
+                 case n of dt3 { GHC.Types.I# dt4 ->
+                 (# ipv6,
+                    Data.Vector.Storable.Vector
+                      @ GHC.Types.Double
+                      dt4
+                      dt1
+                      dt2 #) } } } } }) -}
+21616742896a64c7b513e291f6b01b9c
+  samples7 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   AND.samples10
+                   AND.samples8) -}
+7acb304d832e6fb65a4912040550da97
+  samples8 :: [GHC.Types.Double]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Double
+                   AND.samples9
+                   (GHC.Types.[] @ GHC.Types.Double)) -}
+71abfb1728453450cd47467307375472
+  samples9 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0##) -}
+"SPEC/AND length @ Vector @ (Vector Double)" [ALWAYS] forall ($dVector :: Data.Vector.Generic.Base.Vector
+                                                                            Data.Vector.Vector
+                                                                            (Data.Vector.Storable.Vector
+                                                                               GHC.Types.Double))
+  Data.Vector.Generic.length @ Data.Vector.Vector
+                             @ (Data.Vector.Storable.Vector GHC.Types.Double)
+                             $dVector
+  = AND.$sinit_$slength
+"SPEC/AND length @ Vector @ (Vector Double, Matrix Double)" [ALWAYS] forall ($dVector :: Data.Vector.Generic.Base.Vector
+                                                                                           Data.Vector.Vector
+                                                                                           (Data.Vector.Storable.Vector
+                                                                                              GHC.Types.Double,
+                                                                                            Internal.Matrix.Matrix
+                                                                                              GHC.Types.Double))
+  Data.Vector.Generic.length @ Data.Vector.Vector
+                             @ (Data.Vector.Storable.Vector GHC.Types.Double,
+                                Internal.Matrix.Matrix GHC.Types.Double)
+                             $dVector
+  = AND.$slength1
+"SPEC/AND tanh' @ Double" [ALWAYS] forall ($dFloating :: GHC.Float.Floating
+                                                           GHC.Types.Double)
+  AI.HNN.FF.Network.tanh' @ GHC.Types.Double $dFloating = AND.$stanh'
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

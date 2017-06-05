@@ -1,6 +1,5 @@
-module Lib
-    ( someFunc
-    ) where
+module Lib (
+    AND.run
+) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+import qualified AND

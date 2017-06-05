@@ -14,6 +14,20 @@
   (major1) == 4 && (major2) <  9 || \
   (major1) == 4 && (major2) == 9 && (minor) <= 1)
 
+/* package hmatrix-0.18.0.0 */
+#define VERSION_hmatrix "0.18.0.0"
+#define MIN_VERSION_hmatrix(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  18 || \
+  (major1) == 0 && (major2) == 18 && (minor) <= 0)
+
+/* package hnn-0.3 */
+#define VERSION_hnn "0.3"
+#define MIN_VERSION_hnn(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  3 || \
+  (major1) == 0 && (major2) == 3 && (minor) <= 0)
+
 /* tool alex-3.2.1 */
 #define TOOL_VERSION_alex "3.2.1"
 #define MIN_TOOL_VERSION_alex(major1,major2,minor) (\
@@ -84,6 +98,13 @@
   (major1) == 1 && (major2) <  24 || \
   (major1) == 1 && (major2) == 24 && (minor) <= 0)
 
+/* tool pkg-config-0.29.2 */
+#define TOOL_VERSION_pkg_config "0.29.2"
+#define MIN_TOOL_VERSION_pkg_config(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  29 || \
+  (major1) == 0 && (major2) == 29 && (minor) <= 2)
+
 /* tool strip-2.25 */
 #define TOOL_VERSION_strip "2.25"
 #define MIN_TOOL_VERSION_strip(major1,major2,minor) (\
@@ -91,7 +112,7 @@
   (major1) == 2 && (major2) <  25 || \
   (major1) == 2 && (major2) == 25 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "networks-0.1.0.0-HpwZHsIbQc16rukQsGyZss"
+#define CURRENT_COMPONENT_ID "networks-0.1.0.0-8MvwABPgKe0DIamyIk8TMx"
 
-#define CURRENT_PACKAGE_KEY "networks-0.1.0.0-HpwZHsIbQc16rukQsGyZss"
+#define CURRENT_PACKAGE_KEY "networks-0.1.0.0-8MvwABPgKe0DIamyIk8TMx"
 

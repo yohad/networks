@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "D:\\Haskell\\networks\\.stack-work\\install\\65995373\\bin"
-libdir     = "D:\\Haskell\\networks\\.stack-work\\install\\65995373\\lib\\x86_64-windows-ghc-8.0.2\\networks-0.1.0.0-HpwZHsIbQc16rukQsGyZss"
+libdir     = "D:\\Haskell\\networks\\.stack-work\\install\\65995373\\lib\\x86_64-windows-ghc-8.0.2\\networks-0.1.0.0-8MvwABPgKe0DIamyIk8TMx"
 dynlibdir  = "D:\\Haskell\\networks\\.stack-work\\install\\65995373\\lib\\x86_64-windows-ghc-8.0.2"
 datadir    = "D:\\Haskell\\networks\\.stack-work\\install\\65995373\\share\\x86_64-windows-ghc-8.0.2\\networks-0.1.0.0"
 libexecdir = "D:\\Haskell\\networks\\.stack-work\\install\\65995373\\libexec"

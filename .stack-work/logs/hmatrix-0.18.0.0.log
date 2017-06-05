@@ -1,8 +1,39 @@
 Configuring hmatrix-0.18.0.0...
-Cabal-simple_Z6RU0evB_1.24.2.0_ghc-8.0.2.exe: Missing dependency on a foreign
-library:
-* Missing C library: libgfortran-3
-This problem can usually be solved by installing the system package that
-provides this library (you may need the "-dev" version). If the library is
-already installed but in a non-standard location then you can use the flags
---extra-include-dirs= and --extra-lib-dirs= to specify where it is.
+Building hmatrix-0.18.0.0...
+Preprocessing library hmatrix-0.18.0.0...
+[ 1 of 27] Compiling Internal.Vector  ( src\Internal\Vector.hs, .stack-work\dist\ca59d0ab\build\Internal\Vector.o )
+[ 2 of 27] Compiling Internal.Devel   ( src\Internal\Devel.hs, .stack-work\dist\ca59d0ab\build\Internal\Devel.o )
+[ 3 of 27] Compiling Internal.Vectorized ( src\Internal\Vectorized.hs, .stack-work\dist\ca59d0ab\build\Internal\Vectorized.o )
+[ 4 of 27] Compiling Internal.Matrix  ( src\Internal\Matrix.hs, .stack-work\dist\ca59d0ab\build\Internal\Matrix.o )
+[ 5 of 27] Compiling Internal.IO      ( src\Internal\IO.hs, .stack-work\dist\ca59d0ab\build\Internal\IO.o )
+[ 6 of 27] Compiling Internal.ST      ( src\Internal\ST.hs, .stack-work\dist\ca59d0ab\build\Internal\ST.o )
+[ 7 of 27] Compiling Internal.Element ( src\Internal\Element.hs, .stack-work\dist\ca59d0ab\build\Internal\Element.o )
+[ 8 of 27] Compiling Internal.Conversion ( src\Internal\Conversion.hs, .stack-work\dist\ca59d0ab\build\Internal\Conversion.o )
+[ 9 of 27] Compiling Internal.LAPACK  ( src\Internal\LAPACK.hs, .stack-work\dist\ca59d0ab\build\Internal\LAPACK.o )
+[10 of 27] Compiling Internal.Numeric ( src\Internal\Numeric.hs, .stack-work\dist\ca59d0ab\build\Internal\Numeric.o )
+[11 of 27] Compiling Internal.Sparse  ( src\Internal\Sparse.hs, .stack-work\dist\ca59d0ab\build\Internal\Sparse.o )
+[12 of 27] Compiling Numeric.LinearAlgebra.Devel ( src\Numeric\LinearAlgebra\Devel.hs, .stack-work\dist\ca59d0ab\build\Numeric\LinearAlgebra\Devel.o )
+[13 of 27] Compiling Numeric.Vector   ( src\Numeric\Vector.hs, .stack-work\dist\ca59d0ab\build\Numeric\Vector.o )
+[14 of 27] Compiling Internal.Chain   ( src\Internal\Chain.hs, .stack-work\dist\ca59d0ab\build\Internal\Chain.o )
+[15 of 27] Compiling Numeric.Matrix   ( src\Numeric\Matrix.hs, .stack-work\dist\ca59d0ab\build\Numeric\Matrix.o )
+[16 of 27] Compiling Internal.Algorithms ( src\Internal\Algorithms.hs, .stack-work\dist\ca59d0ab\build\Internal\Algorithms.o )
+[17 of 27] Compiling Internal.Container ( src\Internal\Container.hs, .stack-work\dist\ca59d0ab\build\Internal\Container.o )
+[18 of 27] Compiling Internal.CG      ( src\Internal\CG.hs, .stack-work\dist\ca59d0ab\build\Internal\CG.o )
+[19 of 27] Compiling Internal.Convolution ( src\Internal\Convolution.hs, .stack-work\dist\ca59d0ab\build\Internal\Convolution.o )
+[20 of 27] Compiling Internal.Random  ( src\Internal\Random.hs, .stack-work\dist\ca59d0ab\build\Internal\Random.o )
+[21 of 27] Compiling Internal.Util    ( src\Internal\Util.hs, .stack-work\dist\ca59d0ab\build\Internal\Util.o )
+[22 of 27] Compiling Internal.Modular ( src\Internal\Modular.hs, .stack-work\dist\ca59d0ab\build\Internal\Modular.o )
+[23 of 27] Compiling Numeric.LinearAlgebra.Data ( src\Numeric\LinearAlgebra\Data.hs, .stack-work\dist\ca59d0ab\build\Numeric\LinearAlgebra\Data.o )
+[24 of 27] Compiling Numeric.LinearAlgebra ( src\Numeric\LinearAlgebra.hs, .stack-work\dist\ca59d0ab\build\Numeric\LinearAlgebra.o )
+[25 of 27] Compiling Internal.Static  ( src\Internal\Static.hs, .stack-work\dist\ca59d0ab\build\Internal\Static.o )
+[26 of 27] Compiling Numeric.LinearAlgebra.Static ( src\Numeric\LinearAlgebra\Static.hs, .stack-work\dist\ca59d0ab\build\Numeric\LinearAlgebra\Static.o )
+[27 of 27] Compiling Numeric.LinearAlgebra.HMatrix ( src\Numeric\LinearAlgebra\HMatrix.hs, .stack-work\dist\ca59d0ab\build\Numeric\LinearAlgebra\HMatrix.o )
+src\Internal\C\vector-aux.c: In function 'urandom':
+
+src\Internal\C\vector-aux.c:970:11: error:
+     warning: implicit declaration of function 'rand_s' [-Wimplicit-function-declaration]
+         err = rand_s(&number);
+               ^
+Installing library in
+D:\Haskell\networks\.stack-work\install\65995373\lib\x86_64-windows-ghc-8.0.2\hmatrix-0.18.0.0-9PrG8kjjQ4bGVCRjCitsBt
+Registering hmatrix-0.18.0.0...
